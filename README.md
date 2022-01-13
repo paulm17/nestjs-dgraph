@@ -2,10 +2,12 @@
 
 [dgraph-js](https://github.com/dgraph-io/dgraph-js) module for [Nest](https://github.com/nestjs/nest).
 
+Forked: https://github.com/val-samonte/nestjs-dgraph
+
 ## Installation
 
 ```bash
-npm i --save @valsamonte/nestjs-dgraph dgraph-js grpc
+npm i --save @paulm17/nestjs-dgraph dgraph-js grpc
 ```
 
 ## Quick Start
@@ -15,7 +17,7 @@ Import `DgraphModule` to your ApplicationModule
 ```typescript
 
 import { Module } from '@nestjs/common';
-import { DgraphModule } from '@valsamonte/nestjs-dgraph';
+import { DgraphModule } from '@paulm17/nestjs-dgraph';
 import * as grpc from 'grpc';
 
 @Module({
