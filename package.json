@@ -1,10 +1,10 @@
 {
-  "name": "@valsamonte/nestjs-dgraph",
-  "version": "0.1.6",
+  "name": "@paulm17/nestjs-dgraph",
+  "version": "0.1",
   "description": "dgraph-js wrapper for nestjs",
   "author": "val.samonte@gmail.com",
   "license": "MIT",
-  "repository": "val-samonte/nestjs-dgraph",
+  "repository": "paulm17/nestjs-dgraph",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.json",
     "precommit": "lint-staged",
