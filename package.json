@@ -2,7 +2,7 @@
   "name": "@paulm17/nestjs-dgraph",
   "version": "0.0.1",
   "description": "dgraph-js wrapper for nestjs",
-  "author": "val.samonte@gmail.com",
+  "author": "paulm17@gmail.com",
   "license": "MIT",
   "repository": "paulm17/nestjs-dgraph",
   "scripts": {
